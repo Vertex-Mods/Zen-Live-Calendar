@@ -1,14 +1,3 @@
-// ==UserScript==
-// @name           Live Calendar (fx-autoconfig)
-// @version        2.0
-// @description    Arc-style calendar preview for Google Calendar tabs (Firefox/Zen)
-// @author         Your Name
-// @include        main
-// ==/UserScript==
-
-// Ensure Services is available
-var { Services } = globalThis;
-
 // Debug logging function
 function debugLog(message, data = null) {
   try {

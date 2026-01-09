@@ -5,7 +5,16 @@
   "homepage": "https://github.com/Vertex-Mods/Zen-Live-Calendar",
   "readme": "https://raw.githubusercontent.com/Vertex-Mods/Zen-Live-Calendar/refs/heads/main/README.md",
   "image": "https://github.com/Vertex-Mods/Zen-Live-Calendar/blob/main/image.png?raw=true",
-  "js": true,
+  "scripts": {
+    "live-calendar.uc.mjs": {
+      "include": [
+        "chrome://browser/content/browser.xhtml"
+      ],
+      "version": "2.0",
+      "name": "Live Calendar",
+      "description": "Arc-style calendar preview for Google Calendar tabs (Firefox/Zen)"
+    }
+  },
   "author": "Vertex",
   "version": "1.0.0",
   "tags": [
