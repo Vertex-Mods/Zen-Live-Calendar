@@ -1,6 +1,3 @@
-// Ensure Services is available
-var { Services } = globalThis;
-
 // Debug logging function
 function debugLog(message, data = null) {
   try {
