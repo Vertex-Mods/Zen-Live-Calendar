@@ -1,3 +1,5 @@
+const UC_API = ChromeUtils.importESModule("chrome://userchromejs/content/uc_api.sys.mjs");
+
 // Debug logging function
 function debugLog(message, data = null) {
   try {
